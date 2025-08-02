@@ -1,6 +1,6 @@
 'use client';
 
-import { Card as HeroUICard, CardBody, CardHeader } from '@heroui/react';
+import { CardBody, CardHeader, Card as HeroUICard } from '@heroui/react';
 import { Navbar as HeroUINavbar, NavbarBrand, NavbarContent, NavbarItem } from '@heroui/react';
 import { Skeleton as HeroUISkeleton } from '@heroui/react';
 

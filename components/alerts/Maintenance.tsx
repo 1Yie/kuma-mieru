@@ -75,7 +75,7 @@ function MaintenanceAlert({ maintenance }: { maintenance: Maintenance }) {
       const elapsed = now - startTime;
       const progressPercent = Math.min(
         Math.max(Math.floor((elapsed / totalDuration) * 100), 0),
-        100
+        100,
       );
 
       return (
@@ -93,7 +93,7 @@ function MaintenanceAlert({ maintenance }: { maintenance: Maintenance }) {
               <div
                 className={clsx(
                   'my-4 w-full rounded-lg border border-amber-200/50 dark:border-amber-700/50 prose-amber prose-sm prose-p:m-0',
-                  getMarkdownClasses()
+                  getMarkdownClasses(),
                 )}
               >
                 <div
